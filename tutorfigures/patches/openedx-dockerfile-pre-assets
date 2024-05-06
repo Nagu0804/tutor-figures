@@ -1,0 +1,4 @@
+# Install Figures app
+ARG FIGURES_REPOSITORY=git+https://github.com/Nagu0804/figures.git
+ARG FIGURES_VERSION=main
+RUN pip install  $FIGURES_REPOSITORY@$FIGURES_VERSION

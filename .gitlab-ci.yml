@@ -1,0 +1,9 @@
+variables:
+  TUTOR_PLUGIN: figures
+  TUTOR_PYPI_PACKAGE: tutor-figures
+  TUTOR_PYPI_PRIVATE_PACKAGE: tutor-figures
+  OPENEDX_RELEASE: ironwood
+
+include:
+  - project: 'community/tutor-ci'
+    file: 'plugin-gitlab-ci.yml'
